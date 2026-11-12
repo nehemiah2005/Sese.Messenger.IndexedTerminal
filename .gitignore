@@ -481,4 +481,4 @@ $RECYCLE.BIN/
 # Vim temporary swap files
 *.swp
 
-chat_data/ 
+chat_data/
