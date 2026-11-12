@@ -2,7 +2,7 @@
 
 A file-based terminal messenger (`sese-chat`) built in C# that stores messages in a plain-text log (`messages.txt`) alongside a binary offset index (`offset-index.dat`) managed via `BinaryReader` and `BinaryWriter` on a separate `FileStream` for $O(1)$ message retrieval.
 
-> **Note:** Published under `NehemiahSese.Messenger.IndexedTerminal` because the `Sese.*` package prefix is reserved on NuGet.org. The CLI command remains `sese-chat`.
+> **Note:** Published under `Nehemiah.Sese.Messenger.IndexedTerminal` because the `Sese.*` package prefix is reserved on NuGet.org. The CLI command remains `sese-chat`.
 
 ## Installation
 
