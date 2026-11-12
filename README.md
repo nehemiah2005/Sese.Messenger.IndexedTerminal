@@ -1,18 +1,20 @@
-# Sese.Messenger.IndexedTerminal
+# Nehemiah.Sese.Messenger.IndexedTerminal
 
 A file-based terminal messenger (`sese-chat`) built in C# that stores messages in a plain-text log (`messages.txt`) alongside a binary offset index (`offset-index.dat`) managed via `BinaryReader` and `BinaryWriter` on a separate `FileStream` for $O(1)$ message retrieval.
+
+> **Note:** Published under `NehemiahSese.Messenger.IndexedTerminal` because the `Sese.*` package prefix is reserved on NuGet.org. The CLI command remains `sese-chat`.
 
 ## Installation
 
 Install globally as a .NET CLI tool from NuGet:
 
 ```bash
-dotnet tool install --global Sese.Messenger.IndexedTerminal
+dotnet tool install --global Nehemiah.Sese.Messenger.IndexedTerminal
 ```
 Or add the package reference to a .NET project:
 
 ```bash
-dotnet add package Sese.Messenger.IndexedTerminal
+dotnet add package Nehemiah.Sese.Messenger.IndexedTerminal
 ```
 
 ## Usage
@@ -42,5 +44,5 @@ sese-chat
 
 ```bash
 dotnet pack -c Release
-dotnet nuget push bin/Release/Sese.Messenger.IndexedTerminal.1.0.0.nupkg --api-key YOUR_KEY --source https://api.nuget.org/v3/index.json
+dotnet nuget push bin/Release/Nehemiah.Sese.Messenger.IndexedTerminal.1.0.0.nupkg --api-key YOUR_KEY --source https://api.nuget.org/v3/index.json
 ```

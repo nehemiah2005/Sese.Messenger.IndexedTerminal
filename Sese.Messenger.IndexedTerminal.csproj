@@ -11,7 +11,7 @@
     <ToolCommandName>sese-chat</ToolCommandName>
 
     <!-- Required NuGet Metadata -->
-    <PackageId>Sese.Messenger.IndexedTerminal</PackageId>
+    <PackageId>Nehemiah.Sese.Messenger.IndexedTerminal</PackageId>
     <Version>1.0.0</Version>
     <Authors>Nehemiah Marayag Sese</Authors>
     <Description>File-based terminal messenger with O(1) binary offset indexing and direct message jump retrieval.</Description>
